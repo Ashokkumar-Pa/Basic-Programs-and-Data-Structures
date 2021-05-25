@@ -3,22 +3,23 @@
 
 int main()
 {
-	int num[]={4,6,3,2,5,7,12,9,8,3,2};
-	int max=INT_MIN;
-	int min=INT_MAX;
+	int number[] = {4,6,3,2,5,7,12,9,8,3,2};
+	int maximum = INT_MIN;
+	int minimum = INT_MAX;
 	int i;
   
-	for(i=0; num[i]!='\0'; i++)
+	for(i=0; number[i]!='\0'; i++)
 	{
-		if(num[i]>max)
+		if( number[i] > maximum )
 		{
-			max=num[i];
+			maximum = number[i];
 		}
-		else if(num[i]<min)
+		
+		else if( number[i] < minimum )
 		{
-			min=num[i];
+			minimum = number[i];
 		}
 	}
   
-	printf(" minimum --> %d \n maximum --> %d",min,max);
+	printf(" minimum --> %d \n maximum --> %d" , minimum , maximum );
 }
