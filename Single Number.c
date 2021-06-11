@@ -1,3 +1,6 @@
+//	Given a non-empty array of integers n, every element appears twice except for one element. Find that single one.
+
+
 #include<stdio.h>
 #include<stdbool.h>
 
