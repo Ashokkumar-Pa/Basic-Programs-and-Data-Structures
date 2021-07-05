@@ -4,6 +4,7 @@ int main()
 {
 	char word[]="the is the not";
 	char find[]="the";
+	// Output   is  not
 	int wordlen=strlen(word);
 	int findlen=strlen(find);
 	int i, j=0, k, count=0;
