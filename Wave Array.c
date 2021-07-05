@@ -2,6 +2,7 @@
 int main()
 {
 	int wave[] = {10,5,3,11,2,20,22,9,1};
+	// output 1 10 2 11 3 20 5 22 9 
 	int len = sizeof wave/sizeof (wave[0]);
 	int i, j;
     
