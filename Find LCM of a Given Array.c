@@ -5,19 +5,19 @@ int LCM(int a, int b)
    int m;
    if( a > b)
    {
-		m = a;
+	m = a;
    }
    else
    {
-   		m = b;
+   	m = b;
    }
    while(true)
    {
       	if(m % a == 0 && m % b == 0)
-		{
-      		return m;	
-	  	}
-	  	m++;
+	{
+		return m;	
+	}
+	m++;
    }
 }
 int LCMarr(int arr[], int n)
