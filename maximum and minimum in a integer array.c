@@ -4,11 +4,15 @@
 int main()
 {
 	int number[] = {4,6,3,2,5,7,12,9,8,3,2};
-	int maximum = INT_MIN;
-	int minimum = INT_MAX;
+	/*  Output 
+	    	minimum --> 2 
+      		maximum --> 12
+	*/
+	int maximum = number[0];
+	int minimum = number[0];
 	int i;
   
-	for(i=0; number[i]!='\0'; i++)
+	for(i=1; number[i]!='\0'; i++)
 	{
 		if( number[i] > maximum )
 		{
