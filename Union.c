@@ -4,6 +4,7 @@ int main()
   
 	int merge[]={1,2,3,2};
 	int arr[]={1,2,4,2,4};
+	// output 1 3 2 4 
 	int mergelen= sizeof(merge)/ sizeof(merge[0]);
 	int len= sizeof(arr)/sizeof(arr[0]);
 	int i,j;
