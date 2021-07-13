@@ -6,10 +6,10 @@ int hcf(int a,int b)
    	{ 
  		return b;
 	} 
-   else 
-   { 
-        return( hcf (b,a%b ));	
-   } 
+	   else 
+	   { 
+		return( hcf (b,a%b ));	
+	   } 
 } 
 int main()
 {
@@ -17,9 +17,9 @@ int main()
 	int n = sizeof(arr)/sizeof(arr[0]);
 	int i, h;
 	for(i=0;i<n-1;i++) 
-    { 
-      	h = hcf(arr[i],arr[i+1]); 
-      	arr[i+1] = h; 
+    	{ 
+		h = hcf(arr[i],arr[i+1]); 
+		arr[i+1] = h; 
 	} 
   	printf("%d",h); 
 }
