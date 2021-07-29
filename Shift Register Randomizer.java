@@ -1,3 +1,6 @@
+// Question Link
+// https://www.codeabbey.com/index/task_view/shift-register-randomizer
+
 import java.util.Scanner;
 
 public class Main {
